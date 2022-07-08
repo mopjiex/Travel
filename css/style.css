@@ -28,6 +28,7 @@ p {
     margin: 0 auto;
 }
 
+/* HEADER*/
 
 .header {
     background: url(../images/background.jpg);
@@ -35,11 +36,14 @@ p {
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+    margin-bottom: 80px;
 }
 
 .header__top {
     min-height: 90px;
     background-color: rgba(242, 120, 92, .7);
+    box-shadow: 1px 4px rgba(0, 0, 255, .2);
+    margin-bottom: 32px;
 }
 
 .header__top_inner {
@@ -98,3 +102,103 @@ p {
     border-radius: 10px;
     margin-top: 25px;
 }
+
+.header__content_title {
+    font-family: 'Aleo', serif;
+    max-width: 892px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #fff;
+    margin: 0 0 42px 0;
+}
+
+.header__content_text {
+    font-family: 'Aleo', serif;
+    color: #fff;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 46px;
+}
+
+.header__content_search {
+    max-width: 892px;
+    height: 95px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+
+.content__search_inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__content_input {
+    margin-top: 35px;
+    margin-left: 41px;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-style: italic;
+    border: none;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+}
+
+.header__content_btn {
+    margin-top: 22px;
+    margin-right: 15px;
+    display: inline-block;
+    font-family: 'Red Hat Text', sans-serif;  
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    padding: 10px 32px 10px 32px;
+    border-radius: 10px;
+    background: #0D606F;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+}
+
+/* ------------------------------------------------------- */
+
+/* CARD */
+
+.card__title {
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__content {
+    margin-bottom: 97px;
+    text-align: center;
+}
+
+.card__img {
+    margin-bottom: 30px;
+}
+
+.card__text {
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+}
+
+/* -------------------------------------------------------- */
