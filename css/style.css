@@ -28,7 +28,7 @@ p {
     margin: 0 auto;
 }
 
-/* HEADER*/
+/* 1. HEADER*/
 
 .header {
     background: url(../images/background.jpg);
@@ -166,7 +166,7 @@ p {
 
 /* ------------------------------------------------------- */
 
-/* CARD */
+/* 2. CARD */
 
 .card__title {
     font-family: 'Red Hat Text', sans-serif; 
@@ -201,4 +201,97 @@ p {
     color: #0d606f;
 }
 
+/* -------------------------------------------------------- */
+
+/* 3. SLIDER */
+
+/* -------------------------------------------------------- */
+
+/* 4. SLIDER */
+
+/* -------------------------------------------------------- */
+
+/* 5. STORIES */
+
+
+.stories__title {
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.stories__inner {
+    background: url(../images/stories_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.stories__background {
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.stories__card {
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.stories__card_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories__img {
+    width: 400px;
+    height: 250px;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    margin-right: 40px;
+}
+
+
+.stories__content_title {
+    margin: 0;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 32px;
+    color: #0d606f;
+    margin-bottom: 24px;
+}
+
+.stories__content_text {
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+}   
+
+.link {
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.stories__btn_arrow {
+    margin-right: 15px;
+}
+.stories__btn {
+    display: inline-flex;
+    background: #0D606F;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    padding: 14px 31px;
+    color: #fff;
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+}
 /* -------------------------------------------------------- */
