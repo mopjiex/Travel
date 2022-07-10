@@ -205,13 +205,79 @@ p {
 
 /* 3. SLIDER */
 
+.slider {
+    margin-bottom: 80px;
+}
+
+.slider__title {
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 46px;
+}
+
+.slider__content {
+    text-align: center;
+    position: relative;
+}
+
+.slider__content_img {
+    width: 800px;
+    height: 800px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.slider__content_text {
+    position: absolute;
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    bottom: 70px;
+    left: 250px;
+    color: #fff;
+}
+
+.content__check_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.slider__content_check {
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    margin-right: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    background: rgb(242, 120, 92);
+}
+
+.slider__btn {
+    display: inline-flex;
+    background: #0D606F;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    padding: 14px 31px;
+    color: #fff;
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
 /* -------------------------------------------------------- */
 
-/* 4. SLIDER */
-
-/* -------------------------------------------------------- */
-
-/* 5. STORIES */
+/* 4. STORIES */
 
 
 .stories__title {
@@ -294,4 +360,39 @@ p {
     line-height: 32px;
 
 }
+/* -------------------------------------------------------- */
+
+/* 5. FOOTER */
+
+.footer {
+
+}
+
+.footer__inner {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+
+.footer__text {
+    font-family: 'Red Hat Text', sans-serif; 
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.footer__social {
+    
+}
+
+.footer__social_img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
 /* -------------------------------------------------------- */
