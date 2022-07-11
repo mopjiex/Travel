@@ -89,6 +89,14 @@ p {
 .menu__item + .menu__item {
     margin-left: 42px;
 }
+.menu__link {
+    transition: all .3s;
+}
+
+.menu__link:hover {
+    font-size: 24px;
+    font-weight: 700;
+}
 
 .header__top_login {
     display: inline-block;
@@ -101,6 +109,11 @@ p {
     color: #fff;
     border-radius: 10px;
     margin-top: 25px;
+    transition: all .3s;
+}
+
+.header__top_login:hover {
+    background-color: #09424d;
 }
 
 .header__content_title {
@@ -162,8 +175,13 @@ p {
     background: #0D606F;
     border: none;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    cursor: pointer;
+    transition: all .3s;
 }
 
+.header__content_btn:hover {
+    background: #09424d;
+}
 /* ------------------------------------------------------- */
 
 /* 2. CARD */
@@ -223,6 +241,7 @@ p {
 .slider__content {
     text-align: center;
     position: relative;
+    transition: all .5s;
 }
 
 .slider__content_img {
@@ -274,6 +293,11 @@ p {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
+    transition: all .3s;
+}
+
+.slider__btn:hover {
+    background: #09424d;
 }
 /* -------------------------------------------------------- */
 
@@ -339,6 +363,14 @@ p {
     color: #0d606f;
 }   
 
+.stories__content_link {
+    transition: all .3s;
+}
+
+.stories__content_link:hover {
+    color: #09424d;
+}
+
 .link {
     text-align: center;
     padding-bottom: 42px;
@@ -358,7 +390,11 @@ p {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
+    transition: all .3s;
+}
 
+.stories__btn:hover {
+    background: #09424d;
 }
 /* -------------------------------------------------------- */
 
